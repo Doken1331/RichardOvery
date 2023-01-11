@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon_1.eot');
+  src:  url('../fonts/icomoon_1.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon_1.ttf') format('truetype'),
+    url('../fonts/icomoon_1.woff') format('woff'),
+    url('../fonts/icomoon_1.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.eyecix-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eyecix-plus:before {
+  content: "\e900";
+}
+.eyecix-plus-square:before {
+  content: "\e901";
+}
+.eyecix-design-tool:before {
+  content: "\e902";
+}
+.eyecix-double-angle-arrow:before {
+  content: "\e903";
+}
+.eyecix-blockquote:before {
+  content: "\e904";
+}
+.eyecix-smartphone:before {
+  content: "\e905";
+}
+.eyecix-nodejs:before {
+  content: "\e906";
+}
+.eyecix-jquery:before {
+  content: "\e907";
+}
+.eyecix-marker:before {
+  content: "\e908";
+}
+.eyecix-user:before {
+  content: "\e909";
+}
+.eyecix-jewel:before {
+  content: "\e90a";
+}
+.eyecix-list:before {
+  content: "\e90b";
+}
+.eyecix-multimedia:before {
+  content: "\e90c";
+}
+.eyecix-next:before {
+  content: "\e90d";
+}
+.eyecix-facebook-square:before {
+  content: "\e90e";
+}
+.eyecix-user-support:before {
+  content: "\e90f";
+}
+.eyecix-mac-design:before {
+  content: "\e910";
+}
+.eyecix-twitter-square:before {
+  content: "\e911";
+}
+.eyecix-linkedin-square:before {
+  content: "\e912";
+}
+.eyecix-phone:before {
+  content: "\e913";
+}
+.eyecix-youtube-square:before {
+  content: "\e914";
+}
+.eyecix-mail-fill:before {
+  content: "\e915";
+}
+.eyecix-mail-line:before {
+  content: "\e916";
+}
+.eyecix-mic:before {
+  content: "\e917";
+}
+.eyecix-link:before {
+  content: "\e918";
+}
+.eyecix-whatsapp:before {
+  content: "\e919";
+}
+.eyecix-chain:before {
+  content: "\e91a";
+}
+.eyecix-linkedin-circle:before {
+  content: "\e91b";
+}
+.eyecix-comment:before {
+  content: "\e91c";
+}
+.eyecix-graph:before {
+  content: "\e91d";
+}
+.eyecix-html:before {
+  content: "\e91e";
+}
+.eyecix-research:before {
+  content: "\e91f";
+}
+.eyecix-android:before {
+  content: "\e920";
+}
+.eyecix-seo-and-web:before {
+  content: "\e921";
+}
+.eyecix-content:before {
+  content: "\e922";
+}
+.eyecix-idea:before {
+  content: "\e923";
+}
+.eyecix-design:before {
+  content: "\e924";
+}
+.eyecix-vision:before {
+  content: "\e925";
+}
+.eyecix-mobile-phone:before {
+  content: "\e926";
+}
+.eyecix-coding:before {
+  content: "\e927";
+}
+.eyecix-browser:before {
+  content: "\e928";
+}
+.eyecix-php:before {
+  content: "\e929";
+}
+.eyecix-wordpress:before {
+  content: "\e92a";
+}
+.eyecix-browser-mac:before {
+  content: "\e92b";
+}
+.eyecix-menu:before {
+  content: "\e92c";
+}
+.eyecix-dropbox:before {
+  content: "\e92d";
+}
+.eyecix-eye:before {
+  content: "\e92e";
+}
+.eyecix-portfolio:before {
+  content: "\e92f";
+}
+.eyecix-buy:before {
+  content: "\e930";
+}
+.eyecix-investment:before {
+  content: "\e931";
+}
+.eyecix-server:before {
+  content: "\e932";
+}
+.eyecix-tap:before {
+  content: "\e933";
+}
+.eyecix-facebook-plain:before {
+  content: "\e934";
+}
+.eyecix-travel:before {
+  content: "\e935";
+}
+.eyecix-code:before {
+  content: "\e936";
+}
+.eyecix-twitter-plain:before {
+  content: "\e937";
+}
+.eyecix-rss:before {
+  content: "\e938";
+}
+.eyecix-system:before {
+  content: "\e939";
+}
+.eyecix-money:before {
+  content: "\e93a";
+}
+.eyecix-pinterest:before {
+  content: "\e93b";
+}
+.eyecix-linkedin:before {
+  content: "\e93c";
+}
+.eyecix-personnel:before {
+  content: "\e93d";
+}
+.eyecix-tie:before {
+  content: "\e93e";
+}
+.eyecix-user-fill:before {
+  content: "\e93f";
+}
+.eyecix-password:before {
+  content: "\e940";
+}
+.eyecix-smartphone1:before {
+  content: "\e941";
+}
+.eyecix-law:before {
+  content: "\e942";
+}
+.eyecix-html5:before {
+  content: "\e943";
+}
+.eyecix-cms:before {
+  content: "\e944";
+}
+.eyecix-c-plus:before {
+  content: "\e945";
+}
+.eyecix-supermarket:before {
+  content: "\e946";
+}
+.eyecix-css:before {
+  content: "\e947";
+}
+.eyecix-apple:before {
+  content: "\e948";
+}
+.eyecix-facebook-fill:before {
+  content: "\e949";
+}
+.eyecix-twitter-fill:before {
+  content: "\e94a";
+}
+.eyecix-linkedin-fill:before {
+  content: "\e94b";
+}
+.eyecix-behance-fill:before {
+  content: "\e94c";
+}
+.eyecix-linkedin-circle-fill:before {
+  content: "\e94d";
+}
+.eyecix-share:before {
+  content: "\e94e";
+}
+.eyecix-back:before {
+  content: "\e94f";
+}
+.eyecix-like:before {
+  content: "\e950";
+}
+.eyecix-arrow:before {
+  content: "\e951";
+}
+.eyecix-analysis:before {
+  content: "\e952";
+}
+.eyecix-css-3:before {
+  content: "\e954";
+}
+.eyecix-html-5:before {
+  content: "\e955";
+}
+.eyecix-java:before {
+  content: "\e956";
+}
+.eyecix-left-quote:before {
+  content: "\e959";
+}
+.eyecix-magento:before {
+  content: "\e95a";
+}
+.eyecix-shopping-cart:before {
+  content: "\e95c";
+}

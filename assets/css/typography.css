@@ -1,0 +1,306 @@
+/*
+01. Theme Typo
+02. Header
+    02.1 Top Strip
+        02.1.1 Top Info
+        02.1.2 Search
+    02.1 Logo
+    02.2 Navigation
+        02.2.1 SubMenu
+        02.2.1 MegaMenu
+03. Content
+
+    03.1 Blog
+        03.1.2 Blog Grid
+        03.1.3 Blog Grid Two
+        03.1.4 Blog Medium
+        03.1.5 Blog Detail
+    
+    03.4 Team
+        03.4.1 Team Grid
+        03.4.2 Team list
+        03.4.3 Team Detail
+
+    03.5 Shortcode
+        03.5.1 Accordian
+        03.5.2 Testimonial
+        03.5.3 Services
+        03.5.4 Team
+        03.5.5 Form
+        03.5.6 Tabs
+        03.5.7 Partner
+        03.5.8 Button
+        03.5.9 Accordian
+        03.5.10 List
+        03.5.11 Table
+        03.5.12 Typography
+ 
+    03.6 Default Pages Style
+        03.6.1 404
+        03.6.2 UnderCuntruction
+        03.6.3 No Search Result
+        03.6.4 Services
+        03.6.5 Contact Us
+
+    03.7 Case Studies
+        03.7.1 Case Studies Grid
+        03.7.2 Case Studies Grid Two
+        03.7.3 Case Studies List
+        03.7.4 Case Studies Detail
+
+    03.8 Careers
+        03.8.1 Careers Job Listing
+        03.8.2 Careers Vacancy
+        03.8.3 Company History
+        03.8.4 Our Clients
+        03.8.5 Our Strategy
+
+    03.9 Shop
+        03.9.1 Shop Grid
+        03.9.2 Shop List
+        03.9.3 Shop Detail
+ 
+04. Sidebar Widget
+    04.1 Widget CATEGORY WIDGET
+    04.2 Widget Search
+    04.3 Widget Our Photos
+    04.4 Widget Text
+    04.5 Widget Recent Posts
+    04.7 Widget Newsletter
+    04.8 Testimonial
+    04.9 Popular Tags
+    04.10 Featured Articles
+    04.11 Widget Calendar
+ 
+05. Footer
+    05.1 backTo Top
+    05.2 CopyRight
+    05.3 Social Network
+*/
+
+
+
+@import url('css_4.css');
+
+
+/* Typo Css */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    color: #929296;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    color: #4e4e50;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    margin: 0 0 8px;
+}
+h1 {
+    font-size: 26px; }
+h2 {
+    font-size: 24px; }
+h3 {
+    font-size: 22px; }
+h4 {
+    font-size: 20px; }
+h5 {
+    font-size: 18px; }
+h6 {
+    font-size: 16px; }
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #4e4e50;
+}
+p a {
+    color: #4e4e50; }
+p {
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+a {
+    color: #4e4e50;
+    text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+    outline: none; }
+ul {
+    margin-bottom: 0px; }
+figure {
+    margin-bottom: 6px;
+    position: relative;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+strong {
+    color: #4e4e50; }
+iframe {
+    border: none;
+    float: left;
+    width: 100%;
+}
+.wp-caption.alignleft,
+.wp-caption.alignnone {
+    width: 100%;
+}
+select {
+    background-color: #f0eef0;
+    border: 1px solid #dfdfdf;
+    color: #666666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    padding: 8px 12px;
+    width: 100%;
+}
+label {
+    color: #333333;
+    display: block;
+    margin-bottom: 10px;
+}
+button {
+    border: none; }
+textarea, input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    background-color: #f2f2f2;
+    border: none;
+    color: #666;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    line-height: 20px;
+    outline: none;
+    padding: 4px 6px;
+    vertical-align: middle;
+    box-shadow: none;
+}
+input[type="submit"] {
+    outline: none; }
+option {
+    padding: 5px 15px; }
+li {
+    line-height: 28px;
+    list-style: inside none disc;
+}
+ul ul {
+    margin-left: 20px; }
+ol {
+    float: none;
+    list-style: outside none decimal;
+    padding-left: 15px;
+}
+ol ol {
+    margin-left: 20px; }
+ol li {
+    list-style: outside none decimal;
+    width: 100%;
+}
+table {
+    background-color: transparent;
+    max-width: 100%;
+}
+th {
+    text-align: left; }
+table {
+    margin-bottom: 15px;
+    width: 100%;
+}
+table > thead > tr > th, table > tbody > tr > th,
+table > tfoot > tr > th, table > thead > tr > td,
+table > tbody > tr > td, table > tfoot > tr > td {
+    border: 1px solid #dddddd;
+    line-height: 2.5;
+    padding-left: 3px;
+    text-align: center;
+    vertical-align: top;
+}
+table thead tr th {
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    text-transform: capitalize;
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+    border-top: 1px solid #dddddd;
+}
+table > thead > tr > th {
+    border-bottom: 2px solid #dddddd;
+    vertical-align: bottom;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-bottom: 0 none;
+}
+table > tbody + tbody {
+    border-top: 2px solid #dddddd; }
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 6px 10px;
+}
+p ins {
+    color: #999; }
+dl dd {
+    margin-left: 20px; }
+address {
+    font-style: italic; }
+
+/* ThemeMain Css */
+.eyecix-main-section {
+    position: relative; }
+.eyecix-main-content {
+    padding: 50px 0px 10px 0px; }
+.eyecix-main-content,
+.eyecix-main-section {
+    float: left;
+    width: 100%;
+}

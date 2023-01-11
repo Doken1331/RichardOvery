@@ -1,0 +1,11 @@
+
+/* ThemeColor */
+
+.eyecix-color,.eyecix-colorhover:hover,.eyecix-navigation > ul > li a:hover,.eyecix-navigation > ul > li.active a {
+  color: #f68922; }
+
+.eyecix-bgcolor,.eyecix-bgcolorhover:hover {
+  background-color: #f68922; }
+
+.eyecix-bordercolor,.eyecix-bordercolorhover:hover {
+  border-color: #f68922; }
