@@ -5102,3 +5102,30 @@ blockquote:before {
 .ereaders-contact-form ul li:last-child {
     margin-bottom: 15px;
 }
+
+.konf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto 10px;
+}
+
+.konf a {
+    color: #999999;
+    margin: 0 10px;
+}
+
+.block-mobile {
+    display: none;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+    .draggable {
+        display: none;
+    }
+}
